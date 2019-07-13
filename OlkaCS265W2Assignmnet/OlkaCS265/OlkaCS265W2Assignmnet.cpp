@@ -10,21 +10,21 @@
 //*******************************************************************//
 
 
-#include <iostream>								//Include head file iostream
-#include <fstream>								//Include head file fstream
-#include <string>								//Include head file string
-#include <iomanip>								//Include head file iomanip
+#include <iostream>								
+#include <fstream>								
+#include <string>								
+#include <iomanip>								
 
-using namespace std;							//Includes the std prefix for ccin and cout
+using namespace std;							
 
 int main()
 {
 //Variable Declaration
-	ifstream inFile;							//Declares input file stream variable
-	ofstream outFile;							//Declares output file stream variable
-	string firstName;							//Declares firstName as type string
-	string lastName;							//Declares lastName as type string
-	string department;							//Delcares department as type string
+	ifstream inFile;							
+	ofstream outFile;							
+	string firstName;							
+	string lastName;							
+	string department;							
 	double monthlyGrossSalary;					
 	double bonusAsPercent;
 	double taxesAsPercent;
