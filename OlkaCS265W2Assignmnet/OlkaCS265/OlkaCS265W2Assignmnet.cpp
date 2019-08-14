@@ -66,5 +66,6 @@ int main()
 	inFile.close();
 	outFile.close();
 	//Return Statments
+	system("pause");
 	return 0;
 }
